@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navigation({ cartItems = [] }) {
   return (
-    <>
+    <div className="nav--container">
       <div className="header-container">
         <h1 className="headee">Flavor Us Market</h1>
         <h5>Discover indulgence in every puff</h5>
@@ -34,7 +34,7 @@ function Navigation({ cartItems = [] }) {
           )}
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

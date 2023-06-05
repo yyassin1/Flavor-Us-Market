@@ -33,6 +33,11 @@ h5 {
   font-weight: 800;
   margin-bottom: 10px;
 }
+
+.nav--container {
+  display: flex;
+  flex: 1;
+}
 .buttons {
   display: flex;
   justify-content: center;
@@ -273,7 +278,7 @@ textarea {
   max-width: 1200px;
 }
 
-.emptycart{
+.emptycart {
   margin-top: 0px;
   height: auto;
   width: auto;
