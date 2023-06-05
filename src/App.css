@@ -46,13 +46,15 @@ h5 {
   .button {
     margin: 5px;
   }
+  .buttons {
+    flex-wrap: wrap;
+  }
 }
 .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  flex-wrap: wrap;
 }
 
 .button {
