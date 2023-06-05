@@ -52,6 +52,7 @@ h5 {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .button {
