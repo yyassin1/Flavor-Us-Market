@@ -1,17 +1,17 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Address from "./Address";
-import Contact from "./Contact";
-import Product from "./Product";
-import Home from "./Home";
-import Shop from "./Shop";
-import Flavor from "./Flavor";
-import Charcoal from "./Charcoal";
-import HoseMouthp from "./HoseMouthp";
-import FoilOther from "./Foil&Other";
-import ShopNavigation from "./ShopNavigation";
-import MyCart from "./MyCart";
+import Address from "./components/Address";
+import Contact from "./components/Contact";
+import Product from "./components/Product";
+import Home from "./components/Home";
+import Shop from "./components/Shop";
+import Flavor from "./components/Flavor";
+import Charcoal from "./components/Charcoal";
+import HoseMouthp from "./components/HoseMouthp";
+import FoilOther from "./components/Foil&Other";
+import ShopNavigation from "./components/ShopNavigation";
+import MyCart from "./components/MyCart";
 
 export default function RouteSwitch() {
   const [cartItems, setCartItems] = React.useState([]);

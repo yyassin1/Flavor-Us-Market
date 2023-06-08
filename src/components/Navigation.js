@@ -7,7 +7,7 @@ function Navigation({ cartItems = [] }) {
         <h1 className="headee">Flavor Us Market</h1>
         <h5>Discover indulgence in every puff</h5>
       </div>
-      <div className="buttons">
+      <nav className="buttons">
         <Link to="/home" className="button">
           Home
         </Link>
@@ -33,7 +33,7 @@ function Navigation({ cartItems = [] }) {
             </sup>
           )}
         </Link>
-      </div>
+      </nav>
     </div>
   );
 }

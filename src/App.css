@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
 }
 body {
   font-family: Arial, sans-serif;
@@ -67,7 +68,6 @@ h5 {
   margin: 10px;
   cursor: pointer;
   opacity: 80%;
-  font-family: cursive;
   text-decoration: none;
   flex-basis: calc(50% - 20px);
   max-width: 200px;
@@ -82,7 +82,6 @@ button {
   margin: 10px;
   cursor: pointer;
   opacity: 80%;
-  font-family: cursive;
 }
 
 button:hover {
@@ -104,7 +103,6 @@ img {
   margin: 10px;
   padding: 20px;
   background-color: #a3f4a6;
-  font-family: cursive;
   opacity: 80%;
 }
 .information1 {
@@ -162,7 +160,6 @@ textarea {
   align-items: center;
 }
 .homeParagraph {
-  font-family: cursive;
   line-height: 30px;
 }
 .addressPage {
@@ -180,9 +177,6 @@ textarea {
 
 .addressPage div {
   margin-bottom: 20px;
-}
-.addressPage p {
-  font-family: cursive;
 }
 
 .addressImg {
@@ -220,7 +214,6 @@ textarea {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   line-height: 20px;
-  font-family: cursive;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -468,6 +461,13 @@ button {
 @media screen and (max-width: 768px) {
   .shop--content {
     flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 769px) {
