@@ -37,6 +37,7 @@ h5 {
 }
 .nav--container {
   display: flex;
+  flex-direction: column;
   flex: 1;
 }
 @media screen and (max-width: 768px) {
@@ -47,7 +48,11 @@ h5 {
   .button {
     margin: 5px;
   }
+  .shop--content {
+    flex-direction: column;
+  }
   .buttons {
+    display: flex;
     flex-wrap: wrap;
   }
 }
@@ -456,16 +461,6 @@ button {
 
 .clicked {
   background-color: yellow;
-}
-
-@media screen and (max-width: 768px) {
-  .shop--content {
-    flex-direction: column;
-  }
-  .buttons {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
 @media screen and (min-width: 769px) {
   .shop--nav {
