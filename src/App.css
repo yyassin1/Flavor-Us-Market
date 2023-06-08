@@ -64,7 +64,7 @@ h5 {
     background-color: #a3f4a6;
     opacity: 80%;
   }
-  .flavor--box {
+  .shop--flavor {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(1fr, 1fr));
     padding: 10px;
