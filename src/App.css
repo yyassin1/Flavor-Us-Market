@@ -64,6 +64,15 @@ h5 {
     background-color: #a3f4a6;
     opacity: 80%;
   }
+  .shop--flavor {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
 }
 .buttons {
   display: flex;
@@ -262,8 +271,7 @@ textarea {
 }
 .flavor--main {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .shop--display {
