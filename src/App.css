@@ -73,6 +73,10 @@ h5 {
     flex-wrap: wrap;
     align-items: center;
   }
+  .shop--display{
+    display: flex;
+    flex:1;
+  }
 }
 .buttons {
   display: flex;
@@ -473,7 +477,7 @@ button {
   font-size: 24px;
   color: #b7b6b6;
 }
-.shop--container {
+.shop-container {
   background-color: #d0f7d1;
 }
 
