@@ -4,7 +4,7 @@ import React from "react";
 import Navigation from "./components/Navigation";
 function App({cartItems}) {
   return (
-    <div>
+    <div className="container">
       <div className="buttons-container">
         <Navigation cartItems={cartItems}/>
       </div>
