@@ -1,7 +1,7 @@
 import "./App.css";
 import { Outlet } from "react-router-dom";
 import React from "react";
-import Navigation from "./Navigation";
+import Navigation from "./components/Navigation";
 function App({cartItems}) {
   return (
     <div>
