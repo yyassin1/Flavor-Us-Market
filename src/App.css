@@ -65,11 +65,12 @@ h5 {
     background-color: #a3f4a6;
     opacity: 80%;
   }
-  .shop--container {
+  .shop-container {
     background-color: #d0f7d1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
   }
 }
