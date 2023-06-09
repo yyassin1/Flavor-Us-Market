@@ -8,7 +8,7 @@ import HoseMouthp from "./HoseMouthp";
 export default function ShopNavigation({cartItems}) {
   return (
     <div className="shop-container">
-      <div className="shop--nav">
+      <nav className="shop--nav">
         <Link to="/shop/flavor" className="button">
           Flavor
         </Link>
@@ -21,16 +21,16 @@ export default function ShopNavigation({cartItems}) {
         <Link to="/shop/foilOther" className="button">
           Aluminum Foil and other accessories
         </Link>
-      </div>
+      </nav>
       <div class="vertical-line"></div>
-      <div className="shop--display">
+      <nav className="shop--display">
         <Routes>
           <Route path="/shop/flavor" element={<Flavor cartItems={cartItems}/>} />
           <Route path="/shop/charcoal" element={<Charcoal cartItems={cartItems}/>} />
           <Route path="/shop/hoseMouthp" element={<HoseMouthp cartItems={cartItems}/>} />
           <Route path="/shop/foilOther" element={<FoilOther cartItems={cartItems}/>} />
         </Routes>
-      </div>
+      </nav>
     </div>
   );
 }

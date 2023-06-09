@@ -40,9 +40,15 @@ h5 {
   flex: 1;
 }
 @media screen and (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
   .nav--container {
     flex-direction: column;
     align-items: center;
+  }
+  .flavor--main {
+    flex-direction: column;
   }
   .button {
     margin: 5px;
@@ -64,14 +70,28 @@ h5 {
     background-color: #a3f4a6;
     opacity: 80%;
   }
+  .flavor--box {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .flavor--img {
+    height: 150px;
+  }
+  .flavor--box p {
+    font-size: 14px;
+  }
+  
+  .flavor--box h3 {
+    font-size: 20px;
+  }
+  
+  .flavor--box button {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  
   .shop--flavor {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
-    gap: 20px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    max-width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .buttons {
@@ -275,7 +295,10 @@ textarea {
 }
 
 .shop--display {
-  flex-basis: 70%;
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   padding: 10px;
 }
 
@@ -300,7 +323,7 @@ textarea {
 
 .shop--flavor {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
   gap: 20px;
   padding: 40px 20px;
@@ -374,12 +397,12 @@ textarea {
   flex: 1;
 }
 .shop--nav {
-  flex-basis: 30%;
+  flex-basis: 20%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 10px;
-  height: 100vh;
+  height: 100%;
 }
 
 .shop--nav .button {
